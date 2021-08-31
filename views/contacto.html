@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Vollkorn:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <!--seo-->
+	<meta name="description" content="Dejanos tu mensaje en Florilegium">
+	<meta name="keywords" content="Mensaje Florilegium Atencion Cliente Ubicacion Envios Seguimientos">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+<body>
+	<div class="container-fluid px-0">
+            <div class="navbar">
+                <h2 class="title"><a href="../index.html">Florilegium</a></h2>
+                <nav class="">
+                    <ul>
+                        <li><a href="../views/productos.html">Productos</a></li>
+                        <li><a href="../views/nosotros.html">Nosotros</a></li>
+                        <li><a href="../views/contacto.html">Contacto</a></li>
+                        <li><a href="../views/servicios.html">Servicios</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+            	<img src="../assets/img/77.jpg" class="headerPaddingL" alt="header">
+            </div>
+        	<!--Section: Contact v.2-->
+			<section class="mb-4">
+			    <!--Section heading-->
+			    <h2 class="h1-responsive fontTitles text-center my-4">Contacto</h2>
+			    <!--Section description-->
+			    <p class="text-center w-responsive mx-auto mb-4 fontText">Cualquier consulta que tengas, no dudes en escribirnos. Envianos un mail y nos pondremos en contacto contigo.</p>
+			    <div class="row mw-100">
+			        <!--Grid column-->
+			        <div class="col-md-9 mb-md-0 mb-5 px-5">
+			            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+			                <!--Grid row-->
+			                <div class="row">
+			                    <!--Grid column-->
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="name" name="name" class="form-control">
+			                            <label for="name" class="fontText">Nombre</label>
+			                        </div>
+			                    </div>
+			                    <!--Grid column-->
+			                    <!--Grid column-->
+			                    <div class="col-md-6">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="email" name="email" class="form-control">
+			                            <label for="email" class="fontText">Email</label>
+			                        </div>
+			                    </div>
+			                    <!--Grid column-->
+			                </div>
+			                <!--Grid row-->
+			                <!--Grid row-->
+			                <div class="row">
+			                    <div class="col-md-12">
+			                        <div class="md-form mb-0">
+			                            <input type="text" id="subject" name="subject" class="form-control">
+			                            <label for="subject" class="fontText">Asunto</label>
+			                        </div>
+			                    </div>
+			                </div>
+			                <!--Grid row-->
+			                <!--Grid row-->
+			                <div class="row">
+			                    <!--Grid column-->
+			                    <div class="col-md-12">
+			                        <div class="md-form">
+			                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+			                            <label for="message" class="fontText">Mensaje</label>
+			                        </div>
+			                    </div>
+			                </div>
+			                <!--Grid row-->
+			            </form>
+			            <div class="text-center text-md-center">
+			                <a class="btn fontText" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+			            </div>
+			            <div class="status"></div>
+			        </div>
+			        <!--Grid column-->
+			        <!--Grid column-->
+			        <div class="col-md-3 text-center py-5 fontText">
+			            <ul class="list-unstyled mb-0">
+			                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+			                    <p>Arenales 1307, Buenos Aires, Argentina</p>
+			                </li>
+			                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+			                    <p>+ 54 2788 9884</p>
+			                </li>
+			                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+			                    <p>hola@florilegium.com</p>
+			                </li>
+			            </ul>
+			        </div>
+			        <!--Grid column-->
+			    </div>
+			</section>
+			<!--Section: Contact v.2-->
+			<div>
+				<img src="../assets/img/87.png" alt="muestras" class="headerPaddingL">
+			</div>
+		<div class="social-link">
+			<h3>follow us</h3>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">PINTEREST</a>
+            <a href="#">FACEBOOK</a>
+        </div> 
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
